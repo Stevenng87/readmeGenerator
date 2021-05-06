@@ -1,0 +1,29 @@
+{
+  "name": "readme-generator-cli",
+  "version": "1.0.3",
+  "description": "readme-generator",
+  "main": "bin/index.js",
+  "scripts": {
+    "test": "node ./bin/index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikevitelli/README-Generator.git"
+  },
+  "author": "@mikevitelli",
+  "license": "ISC",
+  "bin": {
+    "readme-generator-cli": "./bin/index.js"
+  },
+  "bugs": {
+    "url": "https://github.com/mikevitelli/README-Generator/issues"
+  },
+  "homepage": "https://github.com/mikevitelli/README-Generator#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "inquirer": "^7.3.3",
+    "rxjs": "^6.6.3",
+    "util": "^0.12.3"
+  },
+  "devDependencies": {}
+}
